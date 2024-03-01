@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://kit.fontawesome.com/5a640b4ad7.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/018/817/822/non_2x/cartoon-calculator-icon-png.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outer_body">
+        <div class="screen">
+            <input type="text" id="display" readonly>
+        </div>
+        <div class="button">
+            <button class="btn" value="7" onclick="appendToDisplay('7')"><P class="number">7</P></button>
+            <button class="btn" value="8" onclick="appendToDisplay('8')"><P class="number">8</P></button>
+            <button class="btn" value="9" onclick="appendToDisplay('9')"><P class="number">9</P></button>
+            <button class="btn" value="+" onclick="appendToDisplay('+')"><P class="number">+</P></button>
+            <button class="btn" value="4" onclick="appendToDisplay('4')"><P class="number">4</P></button>
+            <button class="btn" value="5" onclick="appendToDisplay('5')"><P class="number">5</P></button>
+            <button class="btn" value="6" onclick="appendToDisplay('6')"><P class="number">6</P></button>
+            <button class="btn" value="-" onclick="appendToDisplay('-')"><P class="number">-</P></button>
+            <button class="btn" value="1" onclick="appendToDisplay('1')"><P class="number">1</P></button>
+            <button class="btn" value="2" onclick="appendToDisplay('2')"><P class="number">2</P></button>
+            <button class="btn" value="3" onclick="appendToDisplay('3')"><P class="number">3</P></button>
+            <button class="btn" value="*" onclick="appendToDisplay('*')"><P class="number">*</P></button>
+            <button class="btn" value="C" onClick="clearDisplay()"><P class="number">C</P></button>
+            <button class="btn" value="0" onclick="appendToDisplay('0')"><P class="number">0</P></button>
+            <button class="btn" value="=" onclick="calculate()"><P class="number">=</P></button>
+            <button class="btn" value="/" onclick="appendToDisplay('/')"><P class="number">/</P></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

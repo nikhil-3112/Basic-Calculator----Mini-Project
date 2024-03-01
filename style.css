@@ -1,0 +1,55 @@
+body {
+    
+    margin: 20rem 20rem 20rem 20rem;
+}
+
+body .outer_body {
+    height: 35rem;
+    width: 28rem;
+    border-width: 2rem;
+    background-color: rgb(157, 142, 142);
+    padding:2rem;
+    border-radius: 1rem;
+}
+
+body .screen {
+    height:4rem;
+    width:24rem;
+    padding: 2rem;
+    border-width: 20rem;
+    background-color: rgb(235, 227, 227); 
+    display: flex;
+    border-radius: 1rem;    
+}
+
+#display {
+    width: 26rem;
+
+}
+
+  input[type="text"] {
+        font-size: 20px;
+        width: calc(100% - 20px);
+        margin-bottom: 10px;
+  }
+.button {
+    padding: 1rem;
+}
+
+.btn {
+    display:inline-block;
+    width: 2rem;
+    height: 2rem;
+    padding: 3rem;
+    size: 4rem;
+    /* flex: content; */
+    border-radius: 2rem;
+}
+
+.number {
+
+   font-size: large;
+   text-align: center;
+   font-size: 2.5rem;
+   margin: -1rem -1rem -1rem -1rem
+}
